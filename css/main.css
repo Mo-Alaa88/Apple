@@ -12,22 +12,41 @@ body {margin:0;font-family:Arial}
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
-.active-Capitalize {
-  text-transform: capitalize;
+
+button{
+  background: #1f87d9;
+  color: white;
 }
+
+.fa-apple{
+  float: left;
+  padding-left: 11%;
+  color: white;
+  font-size:25px;
+}
+
+.fas{
+  color: white;
+  font-size:20px;
+  padding-left:5%;
+  text-align-last:left;
+  display: ruby;
+}
+
 .topnav {
   overflow: hidden;
   background-color: #333;
 }
 
 .topnav a {
-  float: left;
-  display: block;
+  /* float: left; */
+  display: inline;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  /* padding: 14px 16px; */
   text-decoration: none;
   font-size: 17px;
+  padding-left: 5%; 
 }
 
 .active {
@@ -39,20 +58,169 @@ body {margin:0;font-family:Arial}
   display: none;
 }
 
-.fas{
-  color: white;
-  font-size:20px;
-  padding: 9px;
-  text-align-last:left;
-  display: ruby;
+ /* Style the navbar */
+ #navbar {
+  overflow: hidden;
+  background-color: #f2f2f2;
+  padding: 0 10%;
+}
+
+
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: inline;
+  color: #333;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+#navbar > div {
+  font-size: small;
+}
+
+#navbar > div > span{
+  float: left;
+  padding-top: 15px;
+}
+
+#navbar > div > button {
+  margin-top : 7px;
+  margin-left : 3%;
+}
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* property for .divOne */
+
+.divOne > h1 {
+  font-size: 39px;
+}
+.divOne > h2 {
+  font-size: 68px;
+  padding: 0 20%;
+  margin: 0%;
+}
+.divOne {
+  text-align: center;
+}
+img {
+  flex: 100%;
+  max-width: 100%;
+}
+.divOne > p {
+  padding: 0 23%;
+  font-size: xx-large;
+ }
+/* Property for .divTow */
+.divTow {
+  padding-top: 73px;
+ }
+
+.divTow > h2 {
+  padding-left: 10%;
+ }
+
+.divTow > p {
+  font-size: 59px;
+  padding-left: 10%;
 
 }
-.fab{
-  color: white;
-  font-size:25px;
-  padding: 9px;
-  display: ruby;
+
+.divTow > img {
+  padding-left: 0%;
 }
+
+
+.divTow > div {
+  padding:0 10%;
+  font-size: 29px;
+}
+/*  */
+
+.right {
+  float: right;
+  max-width: 50%;
+}
+.left {
+  float: left;
+  max-width: 40%;
+  padding-left: 10%;
+}
+.left > p {
+  font-size: 19px;
+}
+
+.left > div {
+  font-size: inherit;
+  max-width: 60%;
+  padding-top: 50px;
+}
+
+.xProp{
+  font-size: 35px ;
+  color: #e85d00;
+}
+
+.progressBar1{
+  width: 100%;
+  background: #e85d00;
+  color: #e85d00;
+  max-height:10px ;
+  font-size: 5px;
+}
+.progressBar2{
+  width: 75%;
+  background: #bfbfbf;
+  color: #bfbfbf;
+  max-height:10px ;
+  font-size: 5px;
+  margin-top: 20px;
+}
+
+.left > h3 {
+  font-size: 28px;
+}
+
+.right > div {
+  padding-top: 256px;
+  padding-left: 10%;
+  padding-right: 20%;
+}
+
+.right > div > h3 {
+  font-size: 28px;
+}
+
+.progressBarBlack{
+  width: 80px;
+  background: #333;
+  color: #333;
+  max-height:5px ;
+  font-size: 2px;
+  padding-top: 0px;
+  margin-top: 0 px;
+}
+
+.bidFont {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+} 
 @media screen and (max-width: 600px) {
   .topnav a:not(.display), .dropdown .dropbtn {
     display: none;
