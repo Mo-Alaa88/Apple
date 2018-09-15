@@ -1,4 +1,4 @@
-// 
+// For Top nav
 function myFunction() {
     const x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
@@ -8,7 +8,7 @@ function myFunction() {
     }
 }
 
-// 
+// For navbar
 // When the user scrolls the page, execute myFunction
 window.onscroll = function() {myFunction()};
 
