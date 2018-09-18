@@ -10,7 +10,6 @@ What things you need to install the software and how to install them
 
 
 * clone the repo `https://github.com/Mo-Alaa88/Apple.git`
-* Install NPM
 
 
 ### Installing
