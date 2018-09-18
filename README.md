@@ -22,6 +22,7 @@ A step by step by step series of examples that tell you how to get a development
 
 Add additional notes about how to deploy this on a live system
 * [Original site](https://www.apple.com/imac/)
+* [preview site](https://cdn.rawgit.com/Mo-Alaa88/Apple/2635c582/Apple.html)
 
 ## Built With
 
